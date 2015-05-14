@@ -11,27 +11,29 @@
         android:background="@android:color/white"
         app:layoutMode="pie" >
 
-        <View
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#ff0000" />
+            android:background="#ff0000"
+            android:onClick="enter" />
 
-        <View
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#00ff00" />
+            android:background="#00ff00"
+            android:onClick="fuck" />
 
-        <View
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#0000ff" />
 
-        <View
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffff00" />
 
-        <View
+        <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ff00ff" />
@@ -44,30 +46,30 @@
         android:background="@android:color/white"
         android:visibility="gone" >
 
-        <View
+        <ru.biovamp.circlelayoutexample.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="#ff0000" />
+            android:src="@drawable/empty_photo" />
 
-        <View
+        <ru.biovamp.circlelayoutexample.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="#00ff00" />
+            android:src="@drawable/empty_photo" />
 
-        <View
+        <ru.biovamp.circlelayoutexample.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="#0000ff" />
+            android:src="@drawable/empty_photo" />
 
-        <View
+        <ru.biovamp.circlelayoutexample.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="#ffff00" />
+            android:src="@drawable/empty_photo" />
 
-        <View
+        <ru.biovamp.circlelayoutexample.CircleImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="#ff00ff" />
+            android:src="@drawable/empty_photo" />
     </ru.biovamp.widget.CircleLayout>
 
     <ru.biovamp.widget.CircleLayout
@@ -79,32 +81,32 @@
         app:angleOffset="200"
         app:angleRange="230" >
 
-        <View
+        <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="#ff0000" />
 
-        <View
+        <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="#00ff00" />
 
-        <View
+        <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="#0000ff" />
 
-        <View
+        <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="#ffff00" />
 
-        <View
+        <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="#ff00ff" />
     </ru.biovamp.widget.CircleLayout>
-    
+
     <Button
         android:id="@+id/switchBtn"
         android:layout_width="wrap_content"
